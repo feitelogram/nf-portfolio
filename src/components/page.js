@@ -28,6 +28,13 @@ const page = () => {
                 <Container inverted text dividing style= {{padding: "1rem"}}>
                     <Header as="h1" textAlign="center" className="top" content="Nicholas Feitel: Fullstack Developer"/>
                     <Image bordered rounded src={Headshot} alt="headshot" width="500" height="400" style={{margin: "auto"}} />
+                    <p
+                    style= {{
+                        textAlign: "center",
+                        fontFamily: 'Roboto Mono',
+                        padding: ".5em"
+                      }}
+                    >Available for full-time, part-time and contract projects.</p>
                     <Divider/>
                     <Header as="h2" textAlign="center" content="About Me:"/>
                     <p className="about"
@@ -42,7 +49,10 @@ const page = () => {
                     </p>
                 </Container>
             </Grid.Row>
-            <Divider></Divider>
+            <Divider >
+            <Header as="h1" textAlign="center" content= "PROJECTS" style={{fontSize: "3.5rem", textDecoration: "underline", padding: "2rem"}}/>
+            </Divider>
+            <Divider style={{padding: "3rem"}}></Divider>
             <Grid.Row dividing>
             <Container dividing style= {{padding: "2rem"}}>
                 <Header as="h2" textAlign="center" content= "getBetter: an app for finding sliding-scale mental health and wellness resources in NYC."/>
