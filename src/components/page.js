@@ -35,7 +35,9 @@ const page = () => {
             <Container dividing style= {{padding: "2rem"}}>
                 <Header as="h2" textAlign="center" content= "getBetter: an app for finding sliding-scale mental health and wellness resources in NYC."/>
                 <Header as="h4" textAlign="center" content= "React, Redux, Hooks, Rails, Google Maps, Semantic, IBM Watson"/>
+                <div className="youtube-responsive-container">
                 <iframe title ="getBetter" width="1100" height="650" src="https://www.youtube.com/embed/AwW8sv5kK6E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+                </div>
             </Container>
             </Grid.Row>
             <Divider/>
@@ -43,7 +45,9 @@ const page = () => {
             <Container dividing style= {{padding: "2rem"}}>
                 <Header as="h2" textAlign="center" content= "Calm With Woofers: a relaxing app for rating and loving, floofy, borking and pattable dogs."/>
                 <Header as="h4" textAlign="center" content= "React, Hooks, Rails, Dog.ceo, Custom CSS"/>
-                <iframe title="calmwithwoofers" width="1100" height="650" src="https://www.youtube.com/embed/bWAReQspa5Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
+                <div className="youtube-responsive-container">
+                <iframe title="calmwithwoofers" width="1100" height="650" src="https://www.youtube.com/embed/bWAReQspa5Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+                </div>          
                 </Container>
             </Grid.Row>
             <Divider/>
@@ -51,7 +55,9 @@ const page = () => {
                 <Container dividing style= {{padding: "2rem"}}>
                 <Header as="h2" textAlign="center" content= "Learn.code or Die.trying: a game where a player learns code while avoiding the burnout floor."/>
                 <Header as="h4" textAlign="center" content= "Vanilla JS, p5, Rails, Custom CSS"/>
-                <iframe title="learncode" width="1100" height="650" src="https://www.youtube.com/embed/N2DsRJF3Tbg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
+                <div className="youtube-responsive-container">
+                <iframe title="learncode" width="1100" height="650" src="https://www.youtube.com/embed/N2DsRJF3Tbg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   
+                </div>             
                 </Container>
             </Grid.Row>
             <Divider/>
