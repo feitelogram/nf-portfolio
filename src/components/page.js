@@ -8,7 +8,7 @@ const page = () => {
     return (
         <div>
         <Fragment>
-            <Menu fluid color="green" inverted widths={5}>
+            <Menu fixed="top" fluid color="green" inverted widths={5}>
                 <Menu.Item content = "Portfolio"/>
                 <Menu.Item as="a" href="mailto:nicholas.feitel@gmail.com" content= "Contact Nic"
                 target="_blank" rel="noopener noreferrer"
@@ -28,6 +28,18 @@ const page = () => {
                 <Container inverted text dividing style= {{padding: "1rem"}}>
                     <Header as="h1" textAlign="center" className="top" content="Nicholas Feitel: Fullstack Developer"/>
                     <Image bordered rounded src={Headshot} alt="headshot" width="500" height="400" style={{margin: "auto"}} />
+                    <Divider/>
+                    <Header as="h2" textAlign="center" content="About Me:"/>
+                    <p className="about"
+                    style= {{
+                        textAlign: "center",
+                        fontFamily: 'Roboto Mono'
+                      }}
+                    
+                    >Nicholas Feitel is a NYC-based full-stack web developer, working in React/Redux, JavaScript, HTML5, SQL, CSS, Node, Ruby/Rails and whatever other cool code he can get his hands on.
+                        Before coming to tech, he was a modern-dance critic, an animal-shelter volunteer, the artistic director of a comedy theater and, briefly, a reality televison personality. 
+                        He is a proud graduate of the Flatiron School/Access Labs program and NYU's Kanbar Institute of Film/TV. He has not met your dog yet, but is sure that he will love them.
+                    </p>
                 </Container>
             </Grid.Row>
             <Divider></Divider>
