@@ -35,4 +35,8 @@ code {
   height:100%;
   }
 
+  div.link {
+display: grid;
+}
+
   
