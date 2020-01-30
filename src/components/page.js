@@ -34,7 +34,7 @@ const page = () => {
                         fontFamily: 'Roboto Mono',
                         padding: ".5em"
                       }}
-                    >Available for full-time, part-time and contract projects.</p>
+                    >Available for full-time, part-time and contract technical projects.</p>
                     <Divider/>
                     <Header as="h2" textAlign="center" content="About Me:"/>
                     <p className="about"
