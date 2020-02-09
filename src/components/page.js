@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react'
 import { Header, Container, Grid, Menu, Divider, Image} from 'semantic-ui-react'
 import Headshot from "./Headshot.jpg"
+import Coding from "./Coding.png"
 
 
 
@@ -77,6 +78,16 @@ const Page = props => {
                 <Header as="h4" textAlign="center" content= "React, Hooks, Rails, Dog.ceo, Custom CSS"/>
                 <div className="youtube-responsive-container">
                 <iframe title="calmwithwoofers" width="1100" height="650" src="https://www.youtube.com/embed/bWAReQspa5Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+                </div>          
+                </Container>
+            </Grid.Row>
+            <Divider/>
+            <Grid.Row>
+            <Container dividing style= {{padding: "2rem"}}>
+                <Header as="h2" textAlign="center" content= "Coding Meetups This Week: a CMS-updatable list of Coding Meetups the author is attending this week."/>
+                <Header as="h4" textAlign="center" content= "Gatsby.js, React, SaSS, CSS Modules, graphQl, Contentful"/>
+                <div className="youtube-responsive-container">
+                <img href="https://zen-jennings-88f7da.netlify.com/" alt="coding" style={{width: "1100", height:"650"}} src={Coding} />  
                 </div>          
                 </Container>
             </Grid.Row>
