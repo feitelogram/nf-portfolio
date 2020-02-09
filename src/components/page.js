@@ -64,7 +64,7 @@ const Page = props => {
             <Grid.Row dividing>
             <Container dividing style= {{padding: "2rem"}}>
                 <Header as="h2" textAlign="center" content= "getBetter: an app for finding sliding-scale mental health and wellness resources in NYC."/>
-                <div className="link"><Header as="a" textAlign="center" href="https://flamboyant-jones-6098d9.netlify.com/" content="click here for a functional demo"/></div>
+                <div className="link"><Header as="a" textAlign="center" target="_blank" rel="noopener noreferrer" href="https://flamboyant-jones-6098d9.netlify.com/" content="click here for a functional demo"/></div>
                 <Header as="h4" textAlign="center" content= "React, Redux, Hooks, Rails, Google Maps, Semantic, IBM Watson"/>
                 <div className="youtube-responsive-container">
                 <iframe title ="getBetter" width="1100" height="650" src="https://www.youtube.com/embed/AwW8sv5kK6E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
@@ -87,7 +87,7 @@ const Page = props => {
                 <Header as="h2" textAlign="center" content= "Coding Meetups This Week: a CMS-updatable list of Coding Meetups the author is attending this week."/>
                 <Header as="h4" textAlign="center" content= "Gatsby.js, React, SaSS, CSS Modules, graphQl, Contentful"/>
                 <div className="youtube-responsive-container">
-                <Image as="a" href="https://zen-jennings-88f7da.netlify.com/" bordered rounded alt="coding" width="1100" height="650" style={{display: "grid", alignItems: "center"}} src={Coding} />  
+                <Image as="a" href="https://zen-jennings-88f7da.netlify.com/" bordered rounded alt="coding" width="1100" height="650" style={{display: "grid", alignItems: "center"}} src={Coding} target="_blank" rel="noopener noreferrer" />  
                 </div>          
                 </Container>
             </Grid.Row>
