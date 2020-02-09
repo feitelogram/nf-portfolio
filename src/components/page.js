@@ -87,7 +87,7 @@ const Page = props => {
                 <Header as="h2" textAlign="center" content= "Coding Meetups This Week: a CMS-updatable list of Coding Meetups the author is attending this week."/>
                 <Header as="h4" textAlign="center" content= "Gatsby.js, React, SaSS, CSS Modules, graphQl, Contentful"/>
                 <div className="youtube-responsive-container">
-                <img href="https://zen-jennings-88f7da.netlify.com/" alt="coding" style={{width: "1100", height:"650"}} src={Coding} />  
+                <Image as="a" href="https://zen-jennings-88f7da.netlify.com/" bordered rounded alt="coding" width="1100" height="650" style={{display: "grid", alignItems: "center"}} src={Coding} />  
                 </div>          
                 </Container>
             </Grid.Row>
