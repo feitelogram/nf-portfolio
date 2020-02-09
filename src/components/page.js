@@ -1,10 +1,17 @@
 import React, { Fragment } from 'react'
-import { Header, Container, Grid, Menu, Divider, Image } from 'semantic-ui-react'
+import { Header, Container, Grid, Menu, Divider, Image} from 'semantic-ui-react'
 import Headshot from "./Headshot.jpg"
 
 
 
-const page = () => {
+const Page = props => {
+
+    // const [str, setStr] = useState("spamspam")
+
+    // const changeState = () => {
+    //     str === "spamspam" ? setStr("spam") : setStr("spamspam")
+    // }
+
     return (
         <div>
         <Fragment>
@@ -43,7 +50,7 @@ const page = () => {
                         fontFamily: 'Roboto Mono'
                       }}
                     
-                    >Nicholas Feitel is a NYC-based full-stack web developer, working in React/Redux, JavaScript, HTML5, SQL, CSS, Node, Ruby/Rails and whatever other cool code he can get his hands on.
+                    >Nicholas Feitel is a NYC-based full-stack web developer, working in React/Redux, JavaScript, HTML5, SQL, Python, CSS, Node, Ruby/Rails, Gatsby.js and whatever other cool code he can get his hands on.
                         Before coming to tech, he was a modern-dance critic, an animal-shelter volunteer, the artistic director of a comedy theater and, briefly, a reality televison personality. 
                         He is a proud graduate of the Flatiron School/Access Labs program and NYU's Kanbar Institute of Film/TV. He has not met your dog yet, but is sure that he will love them.
                     </p>
@@ -92,4 +99,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Page
