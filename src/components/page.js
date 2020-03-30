@@ -2,16 +2,13 @@ import React, { Fragment } from 'react'
 import { Header, Container, Grid, Menu, Divider, Image} from 'semantic-ui-react'
 import Headshot from "./Headshot.jpg"
 import Coding from "./Coding.png"
+import Weather from "./weatherapp.png"
+import styled from "styled-components"
+
 
 
 
 const Page = props => {
-
-    // const [str, setStr] = useState("spamspam")
-
-    // const changeState = () => {
-    //     str === "spamspam" ? setStr("spam") : setStr("spamspam")
-    // }
 
     return (
         <div>
@@ -57,7 +54,7 @@ const Page = props => {
                     </p>
                 </Container>
             </Grid.Row>
-            <Divider >
+            <Divider>
             <Header as="h1" textAlign="center" content= "PROJECTS" style={{fontSize: "3.5rem", textDecoration: "underline", padding: "2rem"}}/>
             </Divider>
             <Divider style={{padding: "3rem"}}></Divider>
@@ -88,6 +85,17 @@ const Page = props => {
                 <Header as="h4" textAlign="center" content= "Gatsby.js, React, SaSS, CSS Modules, graphQl, Contentful"/>
                 <div className="youtube-responsive-container">
                 <Image as="a" href="https://zen-jennings-88f7da.netlify.com/" bordered rounded alt="coding" width="1100" height="650" style={{display: "grid", alignItems: "center"}} src={Coding} target="_blank" rel="noopener noreferrer" />  
+                </div>          
+                </Container>
+            </Grid.Row>
+            <Divider/>
+            <Divider/>
+            <Grid.Row>
+            <Container dividing style= {{padding: "2rem"}}>
+                <Header as="h2" textAlign="center" content= "What's The Weather Like In The Scary Outside World: A simple weather searching app utilizing Node."/>
+                <Header as="h4" textAlign="center" content= "Node.js, Express.js, CSS, DarkSky, Mapbox"/>
+                <div className="youtube-responsive-container">
+                <Image as="a" href="https://scary-outside.herokuapp.com/" bordered rounded alt="coding" width="1100" height="650" style={{display: "grid", alignItems: "center"}} src={Weather} target="_blank" rel="noopener noreferrer" />  
                 </div>          
                 </Container>
             </Grid.Row>
