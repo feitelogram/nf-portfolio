@@ -7,6 +7,7 @@ import Coding from './Coding.png';
 import Weather from './weatherapp.png';
 import Knack from './knack.png';
 import Discuss from './Discuss.png'
+import TakeAPeek from './takeAPeek.png'
 
 
 const Page = () => (
@@ -136,6 +137,16 @@ const Page = () => (
             <Header as="h4" textAlign="center" content="Elixir, Phoenix, JavaScript, WebSockets, Material UI" />
             <div className="youtube-responsive-container">
               <Image as="a" href="https://discussphx.herokuapp.com/" bordered rounded alt="coding" width="1100" height="650" style={{ display: 'grid', alignItems: 'center' }} src={Discuss} target="_blank" rel="noopener noreferrer" />
+            </div>
+          </Container>
+        </Grid.Row>
+        <Divider />
+        <Grid.Row>
+          <Container dividing style={{ padding: '2rem' }}>
+            <Header as="h2" textAlign="center" content="Take A Peek: Check Out A Screenshot Of A Site!" />
+            <Header as="h4" textAlign="center" content="GoLang, Vue.js, Bootstrap" />
+            <div className="youtube-responsive-container">
+              <Image as="a" href="http://take-a-peek.herokuapp.com/" bordered rounded alt="coding" width="1100" height="650" style={{ display: 'grid', alignItems: 'center' }} src={TakeAPeek} target="_blank" rel="noopener noreferrer" />
             </div>
           </Container>
         </Grid.Row>
